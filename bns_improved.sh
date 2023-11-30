@@ -39,10 +39,10 @@ do
 	if (( "$x" == "$lenght-1" ))
 	then
 		echo "Ciao ${lista[$x]}, devi fare il regalo a ${lista[0]}" > "${lista[$x]}.txt"
-		echo "1 ${lista[$x]}  2 ${lista[0]}"
+		#echo "1 ${lista[$x]}  2 ${lista[0]}"
 	else
 		echo "Ciao ${lista[$x]}, devi fare il regalo a ${lista[$x+1]}" > "${lista[$x]}.txt"
-		echo "1 ${lista[$x]}   2 ${lista[$x+1]}" 
+		#echo "1 ${lista[$x]}   2 ${lista[$x+1]}" 
 	fi
 done
 echo "ricalcoli totali : $ricalcolo"
